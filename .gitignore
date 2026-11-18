@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Model weights, LoRA adapters, and caches (never commit these)
+runs/
+checkpoints/
+.cache/
+hf_cache/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Local secrets (e.g. Hugging Face tokens)
+.env
+.env.*
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
+nohup.out
